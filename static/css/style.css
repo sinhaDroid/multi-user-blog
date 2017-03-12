@@ -32,11 +32,13 @@ form.form-styled {
     background-color: #fff;
     border: solid 1px #ddd;
     margin: 0px auto;
-    max-width: 768px;
+    width: 100%;
+    text-align: center;
 }
 
 form.form-styled .form-group > input {
-    max-width: 334px;
+    margin: 0px auto;
+    max-width: 50%;
 }
 
 #like-title {
@@ -107,6 +109,7 @@ form.form-styled .form-group > input {
     border-radius: 3px;
     padding: 5px 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .post-recent-subject,
@@ -133,6 +136,7 @@ form.form-styled .form-group > input {
     padding: 5px 10px;
     margin-bottom: 10px;
     border: solid 1px #ddd;
+    text-align: center;
 }
 
 .post-content {
@@ -141,7 +145,7 @@ form.form-styled .form-group > input {
 
 .comment {
     margin-top: 10px;
-    max-width: 768px;
+    width: 100%;
     margin-left: 0px;
 }
 
